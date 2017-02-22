@@ -1,12 +1,12 @@
 {
-	"name": "greenpeace/upstream-plugin-mappress-google-maps-for-wordpress",
+	"name": "greenpeace/planet4-plugin-mappress-google-maps-for-wordpress",
 	"version": "2.43.10",
 
 	"repositories": [
 		{
 			"type": "package",
 			"package": {
-				"name": "wordpress-plugin/mappress-google-maps-for-wordpress",
+				"name": "greenpeace/planet4-plugin-mappress-google-maps-for-wordpress-upstream",
 				"version": "2.43.10",
 				"type": "wordpress-plugin",
 				"url": "https://wordpress.org/plugins/mappress-google-maps-for-wordpress/",
@@ -24,6 +24,6 @@
 	],
 
 	"require": {
-		"wordpress-plugin/mappress-google-maps-for-wordpress": "2.43.10"
+		"greenpeace/planet4-plugin-mappress-google-maps-for-wordpress-upstream": "2.43.10"
 	}
 }
